@@ -109,7 +109,7 @@ def play(board)
 
     if won?(board)
         #if winner(board) == "X"
-        puts "Congratulations #{{winner(board)}}!"
+        puts "Congratulations #{winner(board)}!"
         #else
         #puts "Congratulations O!"
         #end
