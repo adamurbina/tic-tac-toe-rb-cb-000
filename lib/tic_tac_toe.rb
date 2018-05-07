@@ -105,7 +105,7 @@ def play(board)
         # if draw?(board)
         #     break
         # end
-        (draw?(board) ? break)
+        break if draw?(board)
     end
 
     if won?(board)
