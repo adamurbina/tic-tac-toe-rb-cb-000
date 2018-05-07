@@ -114,6 +114,7 @@ def play(board)
 
     until over?(board)
         turn(board)
+    end
 
     if won?(board)
         if winner(board) == "X"
@@ -128,6 +129,6 @@ def play(board)
         break
     end
 
-end
+
 
 end
