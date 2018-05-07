@@ -100,17 +100,17 @@ end
 
 def play(board)
 
-    if won?(board)
-        if winner(board) == "X"
-        puts "Congratulations X!"
-        else
-        puts "Congratulations O!"
-        end
-
-    end
-    if draw?(board)
-        puts "Cat's Game!"
-    end
+    # if won?(board)
+    #     if winner(board) == "X"
+    #     puts "Congratulations X!"
+    #     else
+    #     puts "Congratulations O!"
+    #     end
+    # 
+    # end
+    # if draw?(board)
+    #     puts "Cat's Game!"
+    # end
 
     until over?(board)
         turn(board)
