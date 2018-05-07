@@ -100,18 +100,6 @@ end
 
 def play(board)
 
-    # if won?(board)
-    #     if winner(board) == "X"
-    #     puts "Congratulations X!"
-    #     else
-    #     puts "Congratulations O!"
-    #     end
-    #
-    # end
-    # if draw?(board)
-    #     puts "Cat's Game!"
-    # end
-
     while !over?(board)
         turn(board)
         if draw?(board)
@@ -120,11 +108,11 @@ def play(board)
     end
 
     if won?(board)
-        if winner(board) == "X"
-        puts "Congratulations X!"
-        else
-        puts "Congratulations O!"
-        end
+        #if winner(board) == "X"
+        puts "Congratulations #{{winner(board)}}!"
+        #else
+        #puts "Congratulations O!"
+        #end
     end
     if draw?(board)
         puts "Cat's Game!"
