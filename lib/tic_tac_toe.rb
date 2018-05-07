@@ -102,9 +102,6 @@ def play(board)
 
     while !over?(board)
         turn(board)
-        # if draw?(board)
-        #     break
-        # end
         break if draw?(board)
     end
 
